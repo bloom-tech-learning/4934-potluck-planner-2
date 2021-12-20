@@ -6,6 +6,7 @@ import Header from './Header';
 import Footer from './Footer';
 import BloomHeader from './BloomHeader';
 import Login from './Login';
+import Home from './Home';
 
 import Logout from './Logout';
 import View from './View';
@@ -35,7 +36,7 @@ const App = () => {
         <Route path="/login" component={Login} /> 
 
         <Route exact path="/">
-          <Login/>
+          <Home />
         </Route>          
       </RouteContainer>
       <Footer />
@@ -48,7 +49,11 @@ export default App;
 //Task List
 
 const AppContainer = styled.div`
-  height: 100%;
+  font-size:1.8rem;
+  line-height:1.5;
+  background-color:#FBFFFB;
+  color:#4f4f4f;
+  font-family: 'Source Sans Pro', sans-serif;  
 `
 const RouteContainer = styled.div`
   display: flex;

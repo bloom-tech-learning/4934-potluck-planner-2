@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
 import { useHistory } from 'react-router-dom'
 
-const Logout = (props)=> {
+const Logout = ()=> {
     
     console.log('useHistory: ', useHistory());
 

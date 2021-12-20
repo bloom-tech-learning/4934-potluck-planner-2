@@ -1,21 +1,29 @@
-import React from 'react';
+
 import styled from 'styled-components';
 import shop from '../images/shop.jpg'
 
 const Footer = () => {
     return(
-        <FooterStyle>
-            <p>Get In Touch!</p>
-            <LeftStyle>
+        <FooterStyle>            
+                <h2>Get In Touch!</h2>            
+            <LeftStyle>  
                 <div>
-                    <h3> Find US Here: </h3>
-                    331 Ladera Dr <br />
-                    Vallejo CA 94591
-                </div>
+                    <img src =  {shop}   alt="inside of the store front of the watering can"/>
+                </div>                
             </LeftStyle>
             <RightStyle>
-            <img src =  {shop}   alt="inside of the store front of the watering can"/>
-            </RightStyle>
+                <div>
+                    <h3> Find US Here: </h3>
+                    <address>
+                        123 Plant Lane<br/>
+                        Bloomfield, Ontario<br/>
+                        Canada L2G 0X7 <br/>
+                    </address>  
+                    <label htmlFor="phoneNumber">+1-613-978-8282</label><br/>
+                    <label htmlFor="email">info@thewateringcan.ca</label><br/>                   
+                </div>
+                
+            </RightStyle>            
             <Bottom>
                 <p>copyright Bloom Tech 2021</p>
             </Bottom>
@@ -26,47 +34,44 @@ const Footer = () => {
 export default Footer;
 
 const FooterStyle = styled.div`
-    padding: 1em;
-    background-color: #266035;
+    background-color:orange;
     display:flex;
-    align-items: center;
-    justify-content: space-between;
-
-    p,  {
+    flex-wrap:wrap;
+    color:#fff;    
+    h2 {
+        text-align:center;
+        color:#fff;
         width:100%;
-        font-weight: bold;
-        font-size: 1.5em;
-    }
-    
+    } 
+    h3 {
+        color:#fff;
+        text-align:left;
+    }     
 `
-
 const LeftStyle  = styled.div`
-    width:100%;
-    color:#fff;
+    width:50%;
     display:flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     div {
-        width: 100%; 
-    }    
+        width:30%;
+    }
 `
 const RightStyle  = styled.div`
-    width: 100%;
-    color: #fff;
-    display: flex;
+    width:50%;
+    display:flex;
     justify-content: center;
-    align-items:center;
-    img {
-        width:100%
-    }
+    align-items: center;
+    div {
+        line-height:2;
+        width:30%;
+    } 
 `
 const Bottom = styled.div`
     width:100%;
     text-align:right;
-    margin-right:5%;
-    margin-top:2%;
     p {
-        width:100%;
-        color:#fff;
+        margin-right:3%;
+        margin-top:5%;
     }
 `

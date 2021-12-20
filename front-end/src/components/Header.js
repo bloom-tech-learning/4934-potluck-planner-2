@@ -20,10 +20,10 @@ export default Header;
 const HeaderStyle = styled.div`
     padding: 1em;
     background-color: #266035;
+    background-color: orange;
     display:flex;
     align-items: center;
     justify-content: space-between;
-
     p {
         font-weight: bold;
         font-size: 1.5em;
@@ -33,8 +33,7 @@ const HeaderStyle = styled.div`
 const MenuStyle = styled.ul`
   li {
         display: inline-block;
-        padding: 0.3rem 1rem;
-        
+        padding: 0.3rem 1rem;        
         a {
             text-decoration: none;
             color: black;

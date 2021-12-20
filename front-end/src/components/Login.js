@@ -45,8 +45,8 @@ const Login = () => {
 
     return(<ComponentContainer>
         <ModalContainer>
-            <h1>Welcome to Potluck Planner</h1>
-            <h2>Please enter your account information.</h2>
+            {/* <h1>Welcome to Potluck Planner</h1>
+            <h2>Please enter your account information.</h2> */}
             {/* //1. Build login form DOM from scratch, making use of styled components if needed. Make sure the username input has id="username" and the password input as id="password". */}
             <form 
                 onSubmit={handleSubmit}
@@ -62,8 +62,8 @@ const Login = () => {
                         onChange={handleChange}
                     />
                 </label>
-                {/* <UserInputs> 
-                </UserInputs>  */}
+                <UserInputs> 
+                </UserInputs> 
                 <label> Password:
                     <input 
                         type="password"
