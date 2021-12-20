@@ -72,6 +72,7 @@ const HomeSection= styled.div`
     background-image:url(${header});
     background-size:cover;
     background-repeat:no-repeat;
+    background-color:#a82342;
     height:90vh;
     width: 100%;
     
@@ -88,20 +89,21 @@ const HomeSection= styled.div`
 `
 
 const AboutSection = styled.div`
-    background-image:url(${about_img});
+    // background-image:url(${about_img});
     background-position: center; 
-
+    // background-color:#0D2F50;       
     display:flex;
     justify-content: flex-end;
     align-items:center;
         div{
-                width:22%;
-                margin-right:10%;
+                // width:22%;
+                // margin-right:10%;
             }
 `
 
 const ShopSection = styled.div`
-    padding-bottom:0;            
+    padding-bottom:0;  
+    background-color:#043221;          
 `
 const ContainerSection = styled.div`
     display:flex;
