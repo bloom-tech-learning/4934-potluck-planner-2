@@ -34,7 +34,7 @@ const Footer = () => {
 export default Footer;
 
 const FooterStyle = styled.div`
-    background-color:orange;
+    background-color:#F7C40C;
     display:flex;
     flex-wrap:wrap;
     color:#fff;    

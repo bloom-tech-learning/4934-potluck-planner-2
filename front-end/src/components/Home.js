@@ -32,14 +32,14 @@ const Home = () => {
                     <div>
                         <h2>Succulants</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam rerum blanditiis voluptates est, ipsum odio repudiandae eligendi numquam esse autem beatae sequi natus, omnis, veritatis magnam atque iusto nesciunt similique.</p>
-                        <button>Shop Now!</button>
+                        <button>LEARN MORE</button>
                     </div>
                 </TextSection>
                 <TextSection>
                     <div>
                         <h2>Cacti</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere voluptas nobis debitis inventore ratione quasi porro repudiandae, tempora mollitia doloremque aliquam vero accusantium maxime consequatur libero quas reprehenderit esse sint?</p>
-                        <button>Shop Now!</button>
+                        <button>LEARN MORE</button>
                     </div>
                 </TextSection>
                 <Cacti>
@@ -57,7 +57,7 @@ const Home = () => {
                     <div>
                         <h2>Tropicals</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum perferendis architecto assumenda eligendi ea optio recusandae illo cum nam quis vitae, iure laboriosam quod minima maiores! Nihil doloribus error rem.</p>
-                        <button>Shop Now!</button>
+                        <button>LEARN MORE</button>
                     </div>
                 </TextSection>
             </ContainerSection>
@@ -100,17 +100,17 @@ const AboutSection = styled.div`
                 // margin-right:10%;
             }
 `
-
 const ShopSection = styled.div`
     padding-bottom:0;  
-    background-color:#043221;          
+    background-color:#4f9c5b;          
 `
 const ContainerSection = styled.div`
     display:flex;
     flex-wrap:wrap;           
 `
 const Succulants = styled.div`
-    width:50%;         
+    width:50%; 
+    padding:6%;        
 `
 const TextSection = styled.div`
     width:50%;         
@@ -131,5 +131,6 @@ const Cacti = styled.div`
     width:50%;         
 `
 const Tropicals = styled.div`    
-    width:50%;         
+    width:50%; 
+    padding:6%;        
 `

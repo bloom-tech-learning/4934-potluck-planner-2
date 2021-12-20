@@ -19,8 +19,8 @@ export default Header;
 
 const HeaderStyle = styled.div`
     padding: 1em;
-    background-color: #266035;
-    background-color: orange;
+    background-color: #F7C40C;
+    
     display:flex;
     align-items: center;
     justify-content: space-between;
